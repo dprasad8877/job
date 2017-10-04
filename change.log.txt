@@ -1,0 +1,95 @@
+13-09-2017
+==========
+(Working version as  .jar pluging  with Black_mamba (chanel List and Epg ad banner rendering))
+	deleted:    AdsOnUI/src/middleware/papi/AdvertisementHomeScreen.java
+        modified:   AdsOnUI/src/middleware/papi/ManageAdsOnUI.java
+        modified:   AdsOnUIPlugin_APIs-v4.docx
+        deleted:    AdsOnUI/src/middleware/papi/Panel1.java
+        modified:   AdsOnUI/src/middleware/papi/PapiConstants.java
+        deleted:    AdsOnUI/src/middleware/papi/RenderImageAd.java
+        deleted:    AdsOnUI/src/middleware/papi/RenderInfoBannerAd.java
+        deleted:    AdsOnUI/src/middleware/papi/ShowImageAdvertisement.java
+        deleted:    AdsOnUI/src/middleware/papi/TestDemo.java
+08-09-2017
+==========
+(playing Video using VLC library and implementing program Banner ad panel on top of video)
+
+ 	modified:   AdsOnUIPlugin_APIs-v4.docx
+
+        modified:   POC_Swing/.classpath
+        modified:   POC_Swing/AdsOnUI/AdsOnUIData.data
+        modified:   POC_Swing/src/StartAdOnUIScreen.java
+
+        added:     POC_Swing/resources/AboutMe.wmv
+        added:     POC_Swing/src/MediaPlayer.java
+        added:     POC_Swing/src/ProgramBanner.java
+        added:     POC_Swing/src/ProgramBannerConstants.java
+        added:     POC_Swing/src/ScreenResolution.java
+        added:     POC_Swing/vlcj-3.0.1/
+
+
+31-08-2017
+==========
+(-startAd() and stopAd() APIs are getting called from Application insted of adsOnUI API.
+ -resizing of ad Banner is implemented here.)
+
+       
+        
+        deleted:    AdsOnUI/src/middleware/papi/AdvertisementForUIScreen.java
+
+        modified:   AdsOnUI/src/middleware/papi/AdvertisementHomeScreen.java
+        modified:   AdsOnUI/src/middleware/papi/PapiConstants.java
+        modified:   AdsOnUI/src/middleware/papi/adsonui/AdsOnUIManager.java
+        modified:   POC_Swing/AdsOnUI/AdsOnUIData.data
+        modified:   POC_Swing/src/StartAdOnUIScreen.java
+
+       
+        added:	    AdsOnUI/src/middleware/papi/ManageAdsOnUI.java
+        
+
+28-08-2017
+==========
+(using API showing ad Banner for two screens (Channel list and EPG Grid) and 
+also switching from one screen to another screen)
+
+  	modified:   AdsOnUI/src/middleware/papi/AdDetails.java
+        modified:   AdsOnUI/src/middleware/papi/PapiConstants.java
+        modified:   AdsOnUI/src/middleware/user/AccountManager/CommunicationModule.java
+        modified:   AdsOnUI/src/middleware/user/AccountManager/Postman.java
+        modified:   AdsOnUI/src/middleware/user/AccountManager/Storage.java
+        modified:   AdsOnUI/src/middleware/user/AccountManager/UserAccountsManager.java
+        modified:   AdsOnUI/src/util/debug/DebugConstants.java
+        modified:   AdsOnUI/src/util/debug/Log.java
+        modified:   POC_Swing/AdsOnUI/AdsOnUIData.data
+        deleted:    POC_Swing/src/Map.java
+
+
+
+        added:	AdsOnUI/src/middleware/papi/AdvertisementForUIScreen.java
+        added:	AdsOnUI/src/middleware/papi/AdvertisementHomeScreen.java
+        added:	POC_Swing/src/StartAdOnUIScreen.java
+note: changed file name:
+		Map.java------>StartAdOnUIScreen.java
+		cat.java------->AdvertisementForUIScreen.java
+
+
+
+AdsonUI Plugin for PC Client
+with clear APIs between 3rd party App & AdsonUI plugin (18th Aug 2017- PKM)
+---------------------------------------------------------------------------
+18-08-2017
+==========
+AdsOnUI:(Using APIs map.java to pass Oppids to AdsonUI, send AdsonUIREquest to server and get the sequence + 
+companion URLs etc , store them in object)
+--------
+changed files:
+-------------
+1. middleware/papi/adsonui/AdsOnUIManager.java
+2. Application/cloud/config/SettingsFileInterface.java
+3. middleware/papi/adsonui/request/AdsOnUIXMLPlacement.java
+4. middleware/papi/PapiConstants.java
+5. middleware/papi/AdDetails.java
+
+
+
+
