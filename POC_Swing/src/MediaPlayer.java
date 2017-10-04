@@ -19,7 +19,10 @@ private EmbeddedMediaPlayerComponent mediaplayer;
 
 private JPanel panel;
 ProgramBanner programBanner=null;
+
 JButton StopVideoButton;
+
+
 
 public MediaPlayer() {
 

@@ -1,4 +1,4 @@
-13-09-2017
+13-09-2017(diwakar aprasad)
 ==========
 (Working version as  .jar pluging  with Black_mamba (chanel List and Epg ad banner rendering))
 	deleted:    AdsOnUI/src/middleware/papi/AdvertisementHomeScreen.java
